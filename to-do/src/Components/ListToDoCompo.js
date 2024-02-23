@@ -18,6 +18,8 @@ export default function ListToDoCompo() {
                 <td>Description</td>
                 <td>Is Done?</td>
                 <td>Target Date</td>
+                <td>Update</td>
+                <td>Delete</td>
             </tr>
         </thead>
         <tbody>
