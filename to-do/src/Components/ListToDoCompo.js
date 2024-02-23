@@ -31,12 +31,15 @@ export default function ListToDoCompo() {
                             <td>{todo.description}</td>
                             <td>{todo.done.toString()}</td>
                             <td>{todo.targetDate.toDateString()}</td>
+                            <td><button type="button" class="btn btn-warning">Update</button></td>
+                            <td><button type="button" class="btn btn-danger">Delete</button></td>
                         </tr>
                     )
                 )
             }
         </tbody>
       </table>
+      <a href="add-todo" class="btn btn-success">Add Todo</a>
     </div>
   )
 }
